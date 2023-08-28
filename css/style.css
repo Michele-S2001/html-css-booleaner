@@ -5,6 +5,20 @@
     box-sizing: border-box;
 }
 
+/* generals */
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    padding: 20px 10px 20px 10px;
+}
+
+.grey {
+    color: #878787;
+}
+
+
 /* logo bar styling */
 .logo__bar {
     position: relative;
@@ -19,4 +33,20 @@
     height: 70px;
     left: 10px;
     bottom: 10px;
+}
+
+/* header styling */
+.header__details{
+    margin-bottom: 20px;
+}
+.header__author {
+    font-weight: 600;
+}
+
+.header__author span {
+    color: #33b0e7;
+}
+
+.header__date, .header__images-descriptions {
+    font-size: 0.7rem;
 }
