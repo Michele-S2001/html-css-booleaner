@@ -70,3 +70,21 @@ header {
     padding-left: 20px;
     margin-bottom: 20px;
 }
+
+.article__table {
+    text-align: left;
+    width: 100%;
+    
+}
+
+.article__table-firstRow {
+    background-color: #20a9e5;
+    color: white;
+}
+
+.article__table-secondRow, .article__table-fourthRow {
+    background-color: #b1e5f2;
+}
+.article__table-space {
+    width: 25%;
+}
