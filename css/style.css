@@ -62,7 +62,7 @@ header {
 }
 
 /* main and article styling */
-.article__first-paragraph {
+.article__first-paragraph, .article__second-paragraph {
     margin-bottom: 30px;
 }
 
@@ -88,4 +88,32 @@ header {
 }
 .article__table-space {
     width: 25%;
+}
+
+/* footer styling */
+footer {
+    font-weight: 600;
+}
+
+footer p{
+    margin-bottom: 10px;
+} 
+
+.footer__link {
+    color: white;
+    background-color: red;
+    padding: 7px;
+    width: 200px;
+    height: 140px;
+}
+
+#footer__link__one {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+#footer__link__two {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
 }
