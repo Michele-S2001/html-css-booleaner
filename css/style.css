@@ -58,6 +58,15 @@ header {
 
 .header__images-wrapper {
     display: flex;
+    width: 90%;
+}
+
+#header__first-img {
+    width: 55%;
+}
+
+#header__second-img {
+    width: 45%;
 }
 
 .header__date, .header__images-descriptions {
