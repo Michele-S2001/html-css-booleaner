@@ -12,6 +12,12 @@ body {
 
 .container {
     padding: 20px 10px 20px 10px;
+    /* max-width: 50%;
+    margin: auto; */
+}
+
+.highlighted {
+    background-color: yellow;
 }
 
 .grey {
@@ -36,6 +42,10 @@ body {
 }
 
 /* header styling */
+header {
+    margin-bottom: 25px;
+} 
+
 .header__details{
     margin-bottom: 20px;
 }
@@ -49,4 +59,14 @@ body {
 
 .header__date, .header__images-descriptions {
     font-size: 0.7rem;
+}
+
+/* main and article styling */
+.article__first-paragraph {
+    margin-bottom: 30px;
+}
+
+.article__list {
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
